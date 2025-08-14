@@ -53,9 +53,9 @@ http://127.0.0.1:8000/news/daily_summary
 
 ### 4. Sector-wise News
 - **Method:** `GET`
-- **URL:** `/news/sector/{sector_name}`
+- **URL:** `/news/sector/{sector_code}`
 - **Description:** Provides an overview and statistics for a specific market sector, including average change, total volume, and identified leader/laggard stocks within that sector.
-- **Example:** `http://127.0.0.1:8000/news/sector/Cement` (Replace `Cement` with an actual sector name from your `stocks_data.xlsx`)
+- **Example:** `http://127.0.0.1:8000/news/sector/sectorCode` (Replace `sectorCode` with an actual sector code from your `stocks_data.xlsx` example 829 , 809 etc)
 
 ## Gemini API Key (Optional)
 
